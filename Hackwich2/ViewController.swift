@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func PressMeButtonPressed(_ sender: Any) {
+//codeblock
+        print("Hello World")
+    }
 
+    @IBAction func PressMeNowPressed(_ sender: Any) {
+        print("Hello everyone")
+    }
 }
 
